@@ -1,0 +1,78 @@
+﻿<Window x:Class="Basketball_Sorting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Basketball_Sorting"
+        mc:Ignorable="d"
+        Title="Basketball Awards" Height="800" Width="1000">
+    <Grid>
+        <DockPanel>
+
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_File">
+                    <MenuItem Name="muiOpen" Header="_Open" Click="muiOpen_Click"/>
+                </MenuItem>
+            </Menu>
+            <StackPanel>
+
+            </StackPanel>
+        </DockPanel>
+
+        <Label Name="lblAwardName" Content=" NBA Awards" HorizontalAlignment="Center" Margin="0,51,0,0" VerticalAlignment="Top" Height="63" Width="788" FontSize="45" FontFamily="Cooper Black"/>
+        <TextBox Name="txtName" Text="" HorizontalAlignment="Left" Margin="592,236,0,0" VerticalAlignment="Top" Height="59" Width="302" FontSize="34" FontFamily="Baskerville Old Face" FontWeight="Bold"/>
+        <Label Name="lblPlayerIndex" Content="0" HorizontalAlignment="Left" Margin="728,323,0,0" VerticalAlignment="Top" Visibility="Hidden" FontSize="18"/>
+        <TextBox Name="txtPlayer" Text="" HorizontalAlignment="Left" Margin="652,350,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="160" Height="32" Visibility="Hidden">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.31"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+
+        <Slider Name="sldRecordCB" HorizontalAlignment="Left" Margin="676,308,0,0" VerticalAlignment="Top" Width="120" ValueChanged="sldRecordCB_ValueChanged" Visibility="Hidden" Maximum="8"/>
+        <Slider Name="sldRecordTU" HorizontalAlignment="Left" Margin="676,308,0,0" VerticalAlignment="Top" Width="120" ValueChanged="sldRecordTU_ValueChanged" Visibility="Hidden" SmallChange="1" Maximum="8"/>
+        <Slider Name="sldRecordOA" HorizontalAlignment="Left" Margin="676,308,0,0" VerticalAlignment="Top" Width="120" ValueChanged="sldRecordOA_ValueChanged" Visibility="Hidden" Maximum="219"/>
+        <Slider Name="sldRecordUA" HorizontalAlignment="Left" Margin="676,308,0,0" VerticalAlignment="Top" Width="120" ValueChanged="sldRecordUA_ValueChanged" Visibility="Hidden" Maximum="193"/>
+        <Slider Name="sldRecordGG" HorizontalAlignment="Left" Margin="676,308,0,0" VerticalAlignment="Top" Width="120" ValueChanged="sldRecordGG_ValueChanged" Visibility="Hidden" Maximum="193"/>
+
+        <Label Content="Team:" HorizontalAlignment="Left" Margin="72,300,0,0" VerticalAlignment="Top"/>
+        <Label Content="Rookie:" HorizontalAlignment="Left" Margin="70,336,0,0" VerticalAlignment="Top"/>
+        <Label Content="Rating:" HorizontalAlignment="Left" Margin="71,367,0,0" VerticalAlignment="Top"/>
+        <Label Content="Games:" HorizontalAlignment="Left" Margin="70,404,0,0" VerticalAlignment="Top"/>
+        <Label Content="Minute Per Game:" HorizontalAlignment="Left" Margin="45,435,0,0" VerticalAlignment="Top"/>
+        <Label Content="Points Per Game:" HorizontalAlignment="Left" Margin="50,466,0,0" VerticalAlignment="Top"/>
+        <Label Content="Rebounds Per Game:" HorizontalAlignment="Left" Margin="42,497,0,0" VerticalAlignment="Top"/>
+        <Label Content="Assists Per Game:" HorizontalAlignment="Left" Margin="48,528,0,0" VerticalAlignment="Top"/>
+        <Label Content="Shot Percentage:" HorizontalAlignment="Left" Margin="48,559,0,0" VerticalAlignment="Top"/>
+        <Label Content="Freethrow Percentage:" HorizontalAlignment="Left" Margin="33,590,0,0" VerticalAlignment="Top"/>
+
+        <TextBox Name="txtTeam" Text="" HorizontalAlignment="Left" Margin="183,305,0,0" VerticalAlignment="Top" Width="65"/>
+        <TextBox Name="txtRookie" Text="" HorizontalAlignment="Left" Margin="183,336,0,0" VerticalAlignment="Top" Width="65"/>
+        <TextBox Name="txtRating" Text="" HorizontalAlignment="Left" Margin="183,367,0,0" VerticalAlignment="Top" Width="65"/>
+        <TextBox Name="txtGames" Text="" HorizontalAlignment="Left" Margin="183,404,0,0" VerticalAlignment="Top" Width="65"/>
+        <TextBox Name="txtMinutePG" Text="" HorizontalAlignment="Left" Margin="183,435,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtPointsPG" Text="" HorizontalAlignment="Left" Margin="183,466,0,0" VerticalAlignment="Top" Width="98"/>
+        <TextBox Name="txtReboundsPG" Text="" HorizontalAlignment="Left" Margin="183,497,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtAssistsPG" Text="" HorizontalAlignment="Left" Margin="183,528,0,0" VerticalAlignment="Top" Width="108"/>
+        <TextBox Name="txtShotPercentage" Text="" HorizontalAlignment="Left" Margin="183,559,0,0" VerticalAlignment="Top" Width="121"/>
+        <TextBox Name="txtFreethrowPercentage" Text=""  HorizontalAlignment="Left" Margin="183,594,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="cmbAwards" HorizontalAlignment="Left" Margin="81,122,0,616" Width="144" Visibility="Hidden">
+            <ComboBoxItem Selected="ComboBoxItem_Selected">Prius Award</ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected_1">Gas Guzzler Award</ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected_3">Foul Target Award</ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected_5">Overachiever Award</ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected_7">Underachiever Award</ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected_4">On The Fence Award</ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected_8">Bang For Your Buck Award</ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected_9">Gordon Gekko Award</ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected_2">Charlie Brown Award</ComboBoxItem>
+            <ComboBoxItem Selected="ComboBoxItem_Selected_6">Tiger Uppercut Award</ComboBoxItem>
+        </ComboBox>
+
+        <Image Name= "imgMain" HorizontalAlignment="Left" Height="301" Margin="500,393,0,0" VerticalAlignment="Top" Width="454"/>
+    </Grid>
+</Window>

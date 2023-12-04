@@ -1,0 +1,40 @@
+C:\Users\MCA\source\repos\Basketball Sorting\bin\Debug\net6.0-windows\Basketball Sorting.exe
+C:\Users\MCA\source\repos\Basketball Sorting\bin\Debug\net6.0-windows\Basketball Sorting.deps.json
+C:\Users\MCA\source\repos\Basketball Sorting\bin\Debug\net6.0-windows\Basketball Sorting.runtimeconfig.json
+C:\Users\MCA\source\repos\Basketball Sorting\bin\Debug\net6.0-windows\Basketball Sorting.dll
+C:\Users\MCA\source\repos\Basketball Sorting\bin\Debug\net6.0-windows\Basketball Sorting.pdb
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting_MarkupCompile.cache
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting_MarkupCompile.lref
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.g.resources
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.AssemblyInfoInputs.cache
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.AssemblyInfo.cs
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.csproj.CoreCompileInputs.cache
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.dll
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\refint\Basketball Sorting.dll
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.pdb
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.genruntimeconfig.cache
+C:\Users\MCA\source\repos\Basketball Sorting\obj\Debug\net6.0-windows\ref\Basketball Sorting.dll
+C:\Users\MCA\Desktop\Basketball Sorting\bin\Debug\net6.0-windows\Basketball Sorting.exe
+C:\Users\MCA\Desktop\Basketball Sorting\bin\Debug\net6.0-windows\Basketball Sorting.deps.json
+C:\Users\MCA\Desktop\Basketball Sorting\bin\Debug\net6.0-windows\Basketball Sorting.runtimeconfig.json
+C:\Users\MCA\Desktop\Basketball Sorting\bin\Debug\net6.0-windows\Basketball Sorting.dll
+C:\Users\MCA\Desktop\Basketball Sorting\bin\Debug\net6.0-windows\Basketball Sorting.pdb
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting_MarkupCompile.cache
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting_MarkupCompile.lref
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.g.resources
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.AssemblyInfoInputs.cache
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.AssemblyInfo.cs
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.csproj.CoreCompileInputs.cache
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.dll
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\refint\Basketball Sorting.dll
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.pdb
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\Basketball Sorting.genruntimeconfig.cache
+C:\Users\MCA\Desktop\Basketball Sorting\obj\Debug\net6.0-windows\ref\Basketball Sorting.dll
